@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "Angel de Jesus Baños Tellez",
@@ -17,7 +18,9 @@
     "express": "^4.21.2",
     "express-session": "^1.18.1",
     "moment-timezone": "^0.5.46",
-    "nodemon": "^3.1.9",
     "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
