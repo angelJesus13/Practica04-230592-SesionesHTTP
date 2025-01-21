@@ -1,17 +1,23 @@
 {
-  "name": "practica4_awi4",
+  "name": "mx.utxj.practica4_awi4",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
   },
   "keywords": [],
   "author": "Angel de Jesus Baños Tellez",
   "license": "ISC",
   "description": "Sesiones Persistentes Practica04",
+  "type": "module",
   "dependencies": {
     "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "moment-timezone": "^0.5.46",
+    "nodemon": "^3.1.9",
     "uuid": "^11.0.5"
   }
 }
